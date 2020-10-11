@@ -105,30 +105,44 @@ body {
 /* ----------------------------- */
 footer {
     background-color: #001f3f;
-    height: 100vh;
-    max-height: 200px;
+    color: white;
+    height: 230px;
     font-size: 14px;
-    padding: 5vw 5vh;
+    padding: 6vh 10vw;
 }
 
 .footer-title {
     font-family: 'Lora', serif;
     letter-spacing: .05em;
-    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .footer-address {
-    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
 }
 
 .footer-contact {
-    color: white;
+    display: flex;
+    flex-direction: column;
 }
+
+/* ----------------------------- */
 
 @media (max-width: 1024px) {
     .carousel-item {
         height: 24rem;
         background-size: contain;
+    }
+
+    footer {
+        height: 328px;
     }
 }
 
@@ -156,6 +170,11 @@ footer {
     .overlay-image {
         opacity: 1;
     }
+
+    footer {
+        padding: 4vh 10vw;
+        height: 220px;
+    }
 }
 
 @media (max-width: 648px) {
@@ -174,6 +193,10 @@ footer {
 
     .width-control {
         width: 70%;
+    }
+
+    footer {
+        padding: 5vh 10vw;
     }
 }
 
@@ -197,6 +220,15 @@ footer {
 
     .width-control {
         width: 88%;
+    }
+
+    footer {
+        padding: 4vh 10vw;
+        height: 270px;
+    }
+
+    .footer-content {
+        flex-direction: column;
     }
 }
 
