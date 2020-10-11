@@ -5,47 +5,7 @@ body {
     line-height: 1.75rem;
 }
 
-.carousel-item {
-    height: 28rem;
-    position: relative;
-
-}
-
-.container {
-    color: #ffffff; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3.5vw 5vh;
-}
-
-.overlay-image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url('./slide-2.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.header {
-    font-family: 'Lora', serif;
-    letter-spacing: .05em;
-}
-
-.caption {
-    letter-spacing: 0.02em;
-    font-size: 22px;
-    color: #eeeeee
-}
-
-.new-color {
-    color: purple;
-}
-
+/* ------- Navbar --------- */
 .brand-button {
     background-color: rgb(104, 3, 104);
     border: none;
@@ -55,7 +15,6 @@ body {
     opacity: 0.9;
 }
 
-/* ----------------------------- */
 .navbar-brand {
     color: #ffffff;
 }
@@ -90,19 +49,49 @@ body {
     font-size: 2rem;
 }
 
-/* ----------------------------- */
-.content {
-    background-color: #efefef;
-    color: #001f3f;
-    padding: 6vh 10vw;
+/* ------- Carousel --------- */
+.carousel-item {
+    height: 28rem;
+    position: relative;
 }
 
-.about-heading {
+.container {
+    color: #ffffff; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3.5vw 5vh;
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('./slide-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header {
+    font-family: 'Lora', serif;
+    letter-spacing: .05em;
+    font-size: 2.2em;
+}
+
+.caption {
+    letter-spacing: 0.02em;
+    font-size: 22px;
+    color: #eeeeee
+}
+
+.new-color {
     color: purple;
-    margin-bottom: 20px;
 }
 
-/* ----------------------------- */
+/* ------- Footer --------- */
 footer {
     background-color: #001f3f;
     color: white;
@@ -133,8 +122,96 @@ footer {
     flex-direction: column;
 }
 
-/* ----------------------------- */
+/* ------- Home Page --------- */
+.home-content {
+    background-color: #efefef;
+    color: #001f3f;
+    padding: 6vh 10vw;
+}
 
+.about-heading {
+    color: purple;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* ------- Team Page --------- */
+.team-content {
+    background-color: #efefef;
+    color: #001f3f;
+    padding: 6vh 10vw;
+}
+
+.team-heading {
+    color: purple;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.team-member {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.member-container {
+    border-bottom: 1px solid purple;
+}
+
+.member-container:last-child {
+    border-bottom: none;
+}
+
+/* ------- Science Page --------- */
+.science-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.science-container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid purple;
+}
+
+.science-container:last-child {
+    border-bottom: none;
+}
+
+.learn-btn {
+    background-color: rgb(104, 3, 104);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.learn-btn:hover {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.science-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.science-image >img {
+    height: 400px;
+    width: 800px;
+}
+
+.card-subheading {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-endnote {
+    font-weight: bold;
+}
+
+/* ------- Media Queries --------- */
 @media (max-width: 1024px) {
     .carousel-item {
         height: 24rem;
@@ -175,6 +252,15 @@ footer {
         padding: 4vh 10vw;
         height: 220px;
     }
+
+    .science-image >img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .card-subheading {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 648px) {
@@ -197,6 +283,11 @@ footer {
 
     footer {
         padding: 5vh 10vw;
+    }
+
+    .science-image >img {
+        width: 400px;
+        height: 280px;
     }
 }
 
@@ -230,6 +321,11 @@ footer {
     .footer-content {
         flex-direction: column;
     }
+
+    .science-image >img {
+        width: 280px;
+        height: 200px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -244,6 +340,18 @@ footer {
 
     .width-control {
         width: 90%;
+    }
+
+    .science-image >img {
+        width: 240px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    .science-image >img {
+        width: 200px;
+        height: 120px;
     }
 }
 
