@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&family=Montserrat:wght@400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+}
+
+.carousel-item {
+    height: 28rem;
+    position: relative;
+
+}
+
+.container {
+    color: #ffffff; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3.5vw 5vh;
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('./slide-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header {
+    font-family: 'Lora', serif;
+    letter-spacing: .05em;
+}
+
+.caption {
+    letter-spacing: 0.02em;
+    font-size: 22px;
+    color: #eeeeee
+}
+
+.new-color {
+    color: purple;
+}
+
+.brand-button {
+    background-color: rgb(104, 3, 104);
+    border: none;
+}
+
+.brand-button:hover {
+    opacity: 0.9;
+}
+
+/* ----------------------------- */
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    letter-spacing: 0.1em;
+}
+
+.nav-link {
+    color: #001f3f;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nav-link:active { 
+    color: purple;
+}
+
+.nav-link:hover { 
+    color: purple;
+}
+
+.menu {
+    color: #001f3f;
+    font-size: 2rem;
+}
+
+/* ----------------------------- */
+.content {
+    background-color: #efefef;
+    color: #001f3f;
+    padding: 6vh 10vw;
+}
+
+.about-heading {
+    color: purple;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------- */
+footer {
+    background-color: #001f3f;
+    height: 100vh;
+    max-height: 200px;
+    font-size: 14px;
+    padding: 5vw 5vh;
+}
+
+.footer-title {
+    font-family: 'Lora', serif;
+    letter-spacing: .05em;
+    color: white;
+}
+
+.footer-address {
+    color: white;
+}
+
+.footer-contact {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .carousel-item {
+        height: 24rem;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 768px) {    
+    .container {
+        padding: 3.5vw 5vh;
+    }
+
+    .carousel-item {
+        height: 22rem;
+    }
+
+    .width-control {
+        width: 60%;
+    }
+    
+    .header {
+        font-size: 30px;
+    }
+
+    .caption {
+        font-size: 18px;
+    }
+
+    .overlay-image {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 648px) {
+    .container {
+        padding: 7vw 8vh;
+    }
+
+    .header {
+        font-size: 24px;
+        letter-spacing: 0.03em;
+    }
+
+    .caption {
+        font-size: 16px;
+    }
+
+    .width-control {
+        width: 70%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        padding: 10vw 8vh;
+    }
+
+    .carousel-item {
+        height: 24rem;
+    }
+
+    .header {
+        width: 60%;
+        line-height: 1.6rem;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+
+    .width-control {
+        width: 88%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 12vw 6vh;
+    }
+
+    .header {
+        font-size: 20px;
+        line-height: 1.35rem;
+    }
+
+    .width-control {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #item-1 {
+    background-image: url('./slide-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: center;
+} */
+
+/* #item-2 {
+    background-image: url('./slide-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: center;
+}
+
+#item-3 {
+    background-image: url('./slide-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: center;
+} */
+
+/* .header::after {
+    content: '';
+    background: #aaaaaa;
+    display: block;
+    width: 180px;
+    height: 6px;
+} */
