@@ -13,6 +13,7 @@ body {
 
 .brand-button:hover {
     opacity: 0.9;
+    box-shadow: 1px 0px 1px 1px rgb(204, 204, 204, 0.3);
 }
 
 .navbar-brand {
@@ -123,20 +124,20 @@ footer {
 }
 
 /* ------- Home Page --------- */
-.home-content {
+.content {
     background-color: #efefef;
     color: #001f3f;
     padding: 6vh 10vw;
 }
 
-.about-heading {
+.heading {
     color: purple;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
 
 /* ------- Team Page --------- */
-.team-content {
+/* .team-content {
     background-color: #efefef;
     color: #001f3f;
     padding: 6vh 10vw;
@@ -146,7 +147,7 @@ footer {
     color: purple;
     margin-bottom: 20px;
     font-size: 1.8em;
-}
+} */
 
 .team-member {
     font-size: 1.2em;
@@ -211,6 +212,57 @@ footer {
     font-weight: bold;
 }
 
+/* ------- Contact Page --------- */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-text {
+    width: 80%;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 0.5vh;
+    width: 36vh;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+form textarea {
+    padding: 1.5vh;
+    width: 32vw;
+    padding-bottom: 12vh;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+#my-form-button {
+    padding: 0.8vh 1.8vh;
+    background-color: rgb(104, 3, 104);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    letter-spacing: .05rem;
+    margin-bottom: 10px;
+}
+
+#my-form-button:focus {
+    outline: none;
+}
+
+#my-form-button:hover {
+    opacity: 0.9;
+}
+
 /* ------- Media Queries --------- */
 @media (max-width: 1024px) {
     .carousel-item {
@@ -220,6 +272,14 @@ footer {
 
     footer {
         height: 328px;
+    }
+
+    form input {
+        width: 28vw;
+    }
+
+    form textarea {
+       width: 38vw;
     }
 }
 
@@ -261,6 +321,8 @@ footer {
     .card-subheading {
         font-size: 16px;
     }
+
+
 }
 
 @media (max-width: 648px) {
@@ -326,6 +388,18 @@ footer {
         width: 280px;
         height: 200px;
     }
+
+    .contact-container {
+        display: block;
+    }
+
+    form input {
+        width: 28vh;
+    }
+
+    form textarea {
+       width: 38vh;
+    }
 }
 
 @media (max-width: 320px) {
@@ -354,51 +428,3 @@ footer {
         height: 120px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #item-1 {
-    background-image: url('./slide-1.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: center;
-} */
-
-/* #item-2 {
-    background-image: url('./slide-2.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: center;
-}
-
-#item-3 {
-    background-image: url('./slide-3.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: center;
-} */
-
-/* .header::after {
-    content: '';
-    background: #aaaaaa;
-    display: block;
-    width: 180px;
-    height: 6px;
-} */
