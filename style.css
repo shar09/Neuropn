@@ -7,27 +7,32 @@ body {
 
 /* ------- Navbar --------- */
 .brand-button {
-    background-color: rgb(104, 3, 104);
     border: none;
+    padding: 0;
 }
 
-.brand-button:hover {
+/* .brand-button:hover {
     opacity: 0.9;
     box-shadow: 1px 0px 1px 1px rgb(204, 204, 204, 0.3);
+} */
+
+.brand-button img {
+    width: 120px;
+    height: 40px;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     color: #ffffff;
 }
 
 .navbar-brand:hover {
     color: #ffffff;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
     font-family: 'Lora', serif;
     letter-spacing: 0.1em;
-}
+} */
 
 .nav-link {
     color: #001f3f;
