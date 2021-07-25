@@ -119,40 +119,77 @@
     </div>
 
     <div class="content">
-      <h2 class="heading">Contact Us</h2>
-      <div class="contact-container">
-        <div class="contact-text">
-          <p>
-            NeuroPn is actively seeking risk shared partnerships to rapidly
-            advance pipeline to identify clinical candidate and establish human
-            proof-of-concept. Please contact us to inquire or explore potential
-            collaboration.
-          </p>
-          <p>
-            404-939-5786<br />
-            business@neuropn.com<br />
-          </p>
-          <p>
-            4989 Peachtree Parkway<br />
-            Suite 200<br />
-            Peachtree Corners<br />
-            GA 30092 USA<br />
-          </p>
+      <h2 class="heading">Our Approach</h2>
+      <p>
+        NeuroPn Therapeutics is working on soluble epoxide hydrolase (sEH)
+        inhibitors to develop novel therapies for the treatment of
+        neurodegenerative diseases with focus on painful peripheral neuropathy
+        and Parkinson’s disease.
+      </p>
+      <div class="science-container">
+        <h4 class="science-title">
+          sEH Inhibition as a multi-modal therapy for chronic pain
+        </h4>
+        <div class="science-image">
+          <img src="approach.JPG" />
         </div>
-        <form
-          id="my-form"
-          action="https://formspree.io/f/mwkwlepg"
-          method="POST"
-        >
-          <label>First Name and Last Name:</label><br />
-          <input type="text" name="name" /><br />
-          <label>Email:</label><br />
-          <input type="email" name="email" /><br />
-          <label>Message:</label><br />
-          <textarea name="message"></textarea><br />
-          <button id="my-form-button">Submit</button>
-          <p id="my-form-status"></p>
-        </form>
+      </div>
+
+      <div class="science-container">
+        <h4 class="science-title">Painful Peripheral Neurotheraphy</h4>
+        <p>
+          Inadequate efficacy and mechanism-based side effects continue to
+          restrict the utility of marketed drugs for chronic neuropathic pain.
+          Selective stimulation of the endogenous analgesic pathway that mimics
+          a natural response to pain stimuli could yield novel agents with
+          superior efficacy and reduced side effects over marketed drugs.
+        </p>
+        <h6>
+          <b
+            >sEH inhibition stimulates endogenous pathways for pain relief and
+            promotes nerve healing</b
+          >
+        </h6>
+        <p>
+          Soluble epoxide hydrolase (sEH) is a regulatory enzyme that rapidly
+          degrades protective mediators epoxyeicosatrienoic acids (EETs) to
+          inactive dihydroxyeicosatrienoic acids (DHETs). Inhibition of sEH
+          stimulates endogenous GABAergic and opioid pathways to provide
+          effective pain relief without narcotic effects. Inhibitors of sEH
+          reduce endoplasmic reticulum (ER) and oxidative stress, neuronal
+          inflammation and neurodegeneration.
+          <br />
+          <em
+            ><b
+              >NeuroPn sEH-inhibitors provide a novel, non-narcotic,
+              disease-modifying therapy for chronic neuropathic pain
+              conditions.</b
+            >
+          </em>
+        </p>
+      </div>
+      <div class="science-container">
+        <h4 class="science-title">Parkinson’s Disease (PD)</h4>
+        <p>
+          Neuroinflammation and mitochondrial dysfunction with associated
+          oxidative/endoplasmic reticulum (ER) stress all work synergistically
+          to accelerate Parkinson’s disease (PD) progression.
+        </p>
+        <p>
+          Emergent data supports a crucial role of soluble epoxide hydrolase
+          (sEH) in driving pathogenesis of human PD. sEH promotes neuronal
+          inflammation, a-synuclein aggregation, neurotoxicity and death of
+          dopaminergic neurons -
+          <br />
+          <em
+            ><b
+              >NeuroPn is pursuing novel inhibitors of soluble epoxide hydrolase
+              (sEH) to develop disease modifying therapeutics for Parkinson’s
+              disease with highly discriminatory (efficacy, safety, neuronal
+              protection) vs. marketed drugs.</b
+            >
+          </em>
+        </p>
       </div>
     </div>
 
@@ -189,54 +226,5 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-
-    <script>
-      window.addEventListener('DOMContentLoaded', function () {
-        // get the form elements defined in your form HTML above
-
-        var form = document.getElementById('my-form');
-        var button = document.getElementById('my-form-button');
-        var status = document.getElementById('my-form-status');
-
-        // Success and Error functions for after the form is submitted
-
-        function success() {
-          form.reset();
-          button.style = 'display: none ';
-          status.style.color = 'green';
-          status.innerHTML = "Thanks! We'll get back to you soon.";
-        }
-
-        function error() {
-          status.style.color = 'red';
-          status.innerHTML = 'Please fill all fields.';
-        }
-
-        // handle the form submission event
-
-        form.addEventListener('submit', function (ev) {
-          ev.preventDefault();
-          var data = new FormData(form);
-          ajax(form.method, form.action, data, success, error);
-        });
-      });
-
-      // helper function for sending an AJAX request
-
-      function ajax(method, url, data, success, error) {
-        var xhr = new XMLHttpRequest();
-        xhr.open(method, url);
-        xhr.setRequestHeader('Accept', 'application/json');
-        xhr.onreadystatechange = function () {
-          if (xhr.readyState !== XMLHttpRequest.DONE) return;
-          if (xhr.status === 200) {
-            success(xhr.response, xhr.responseType);
-          } else {
-            error(xhr.status, xhr.response, xhr.responseType);
-          }
-        };
-        xhr.send(data);
-      }
-    </script>
   </body>
 </html>
