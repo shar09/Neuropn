@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&family=Montserrat:wght@400;600&display=swap');
 body {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .01rem;
-    line-height: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.01rem;
+  line-height: 1.75rem;
 }
 
 /* ------- Navbar --------- */
 .brand-button {
-    border: none;
-    padding: 0;
+  border: none;
+  padding: 0;
 }
 
 /* .brand-button:hover {
@@ -17,8 +17,8 @@ body {
 } */
 
 .brand-button img {
-    width: 120px;
-    height: 40px;
+  width: 120px;
+  height: 40px;
 }
 
 /* .navbar-brand {
@@ -35,110 +35,123 @@ body {
 } */
 
 .nav-link {
-    color: #001f3f;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    font-weight: bolder;
+  color: #001f3f;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
-.nav-link:active { 
-    color: purple;
+.nav-link:active {
+  color: purple;
 }
 
-.nav-link:hover { 
-    color: purple;
+.nav-link:hover {
+  color: purple;
 }
 
 .menu {
-    color: #001f3f;
-    font-size: 2rem;
+  color: #001f3f;
+  font-size: 2rem;
+}
+
+.purple {
+  color: purple;
 }
 
 /* ------- Carousel --------- */
 .carousel-item {
-    height: 28rem;
-    position: relative;
+  height: 28rem;
+  position: relative;
 }
 
 .container {
-    color: #ffffff; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3.5vw 5vh;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3.5vw 5vh;
 }
 
 .overlay-image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url('./slide-2.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('./slide-2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .header {
-    font-family: 'Lora', serif;
-    letter-spacing: .05em;
-    font-size: 2.2em;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.05em;
+  font-size: 2.2em;
 }
 
 .caption {
-    letter-spacing: 0.02em;
-    font-size: 22px;
-    color: #eeeeee
+  letter-spacing: 0.02em;
+  font-size: 22px;
+  font-weight: bold;
+  color: #eeeeee;
 }
 
 .new-color {
-    color: purple;
+  color: purple;
+}
+
+.font-big {
+  font-size: 18px;
+}
+
+.center-align {
+  text-align: center;
 }
 
 /* ------- Footer --------- */
 footer {
-    background-color: #001f3f;
-    color: white;
-    height: 230px;
-    font-size: 14px;
-    padding: 6vh 10vw;
+  background-color: #001f3f;
+  color: white;
+  height: 230px;
+  font-size: 14px;
+  padding: 6vh 10vw;
 }
 
 .footer-title {
-    font-family: 'Lora', serif;
-    letter-spacing: .05em;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.05em;
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .footer-address {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5vw;
 }
 
 .footer-contact {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------- Home Page --------- */
 .content {
-    background-color: #efefef;
-    color: #001f3f;
-    padding: 6vh 10vw;
+  background-color: #efefef;
+  color: #001f3f;
+  padding: 6vh 10vw;
 }
 
 .heading {
-    color: purple;
-    margin-bottom: 20px;
-    font-size: 1.8em;
+  color: purple;
+  margin-bottom: 20px;
+  font-size: 1.8em;
 }
 
 /* ------- Team Page --------- */
@@ -155,281 +168,279 @@ footer {
 } */
 
 .team-member {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .member-container {
-    border-bottom: 1px solid purple;
+  border-bottom: 1px solid purple;
 }
 
 .member-container:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 /* ------- Science Page --------- */
 .science-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .science-container {
-    padding-bottom: 10px;
-    border-bottom: 1px solid purple;
+  padding-bottom: 10px;
+  border-bottom: 1px solid purple;
 }
 
 .science-container:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .learn-btn {
-    background-color: rgb(104, 3, 104);
-    color: white;
-    margin-bottom: 20px;
+  background-color: rgb(104, 3, 104);
+  color: white;
+  margin-bottom: 20px;
 }
 
 .learn-btn:hover {
-    color: #ffffff;
-    opacity: 0.9;
+  color: #ffffff;
+  opacity: 0.9;
 }
 
 .science-image {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 20px;
-    margin-bottom: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+  margin-bottom: 30px;
 }
 
-.science-image >img {
-    height: 400px;
-    width: 800px;
+.science-image > img {
+  height: 400px;
+  width: 800px;
 }
 
 .card-subheading {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .card-endnote {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* ------- Contact Page --------- */
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact-text {
-    width: 80%;
+  width: 80%;
 }
 
 form label {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 form input {
-    padding: 0.5vh;
-    width: 36vh;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 3px;
+  padding: 0.5vh;
+  width: 36vh;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
 }
 
 form textarea {
-    padding: 1.5vh;
-    width: 32vw;
-    padding-bottom: 12vh;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 3px;
+  padding: 1.5vh;
+  width: 32vw;
+  padding-bottom: 12vh;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
 }
 
 #my-form-button {
-    padding: 0.8vh 1.8vh;
-    background-color: rgb(104, 3, 104);
-    color: white;
-    border: none;
-    border-radius: 3px;
-    font-weight: 500;
-    letter-spacing: .05rem;
-    margin-bottom: 10px;
+  padding: 0.8vh 1.8vh;
+  background-color: rgb(104, 3, 104);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  margin-bottom: 10px;
 }
 
 #my-form-button:focus {
-    outline: none;
+  outline: none;
 }
 
 #my-form-button:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 /* ------- Media Queries --------- */
 @media (max-width: 1024px) {
-    .carousel-item {
-        height: 24rem;
-        background-size: contain;
-    }
+  .carousel-item {
+    height: 24rem;
+    background-size: contain;
+  }
 
-    footer {
-        height: 328px;
-    }
+  footer {
+    height: 328px;
+  }
 
-    form input {
-        width: 28vw;
-    }
+  form input {
+    width: 28vw;
+  }
 
-    form textarea {
-       width: 38vw;
-    }
+  form textarea {
+    width: 38vw;
+  }
 }
 
-@media (max-width: 768px) {    
-    .container {
-        padding: 3.5vw 5vh;
-    }
+@media (max-width: 768px) {
+  .container {
+    padding: 3.5vw 5vh;
+  }
 
-    .carousel-item {
-        height: 22rem;
-    }
+  .carousel-item {
+    height: 22rem;
+  }
 
-    .width-control {
-        width: 60%;
-    }
-    
-    .header {
-        font-size: 30px;
-    }
+  .width-control {
+    width: 60%;
+  }
 
-    .caption {
-        font-size: 18px;
-    }
+  .header {
+    font-size: 30px;
+  }
 
-    .overlay-image {
-        opacity: 1;
-    }
+  .caption {
+    font-size: 18px;
+  }
 
-    footer {
-        padding: 4vh 10vw;
-        height: 220px;
-    }
+  .overlay-image {
+    opacity: 1;
+  }
 
-    .science-image >img {
-        width: 600px;
-        height: 400px;
-    }
+  footer {
+    padding: 4vh 10vw;
+    height: 220px;
+  }
 
-    .card-subheading {
-        font-size: 16px;
-    }
+  .science-image > img {
+    width: 600px;
+    height: 400px;
+  }
 
-
+  .card-subheading {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 648px) {
-    .container {
-        padding: 7vw 8vh;
-    }
+  .container {
+    padding: 7vw 8vh;
+  }
 
-    .header {
-        font-size: 24px;
-        letter-spacing: 0.03em;
-    }
+  .header {
+    font-size: 24px;
+    letter-spacing: 0.03em;
+  }
 
-    .caption {
-        font-size: 16px;
-    }
+  .caption {
+    font-size: 16px;
+  }
 
-    .width-control {
-        width: 70%;
-    }
+  .width-control {
+    width: 70%;
+  }
 
-    footer {
-        padding: 5vh 10vw;
-    }
+  footer {
+    padding: 5vh 10vw;
+  }
 
-    .science-image >img {
-        width: 400px;
-        height: 280px;
-    }
+  .science-image > img {
+    width: 400px;
+    height: 280px;
+  }
 }
 
 @media (max-width: 414px) {
-    .container {
-        padding: 10vw 8vh;
-    }
+  .container {
+    padding: 10vw 8vh;
+  }
 
-    .carousel-item {
-        height: 24rem;
-    }
+  .carousel-item {
+    height: 24rem;
+  }
 
-    .header {
-        width: 60%;
-        line-height: 1.6rem;
-    }
+  .header {
+    width: 60%;
+    line-height: 1.6rem;
+  }
 
-    .caption {
-        font-size: 14px;
-    }
+  .caption {
+    font-size: 14px;
+  }
 
-    .width-control {
-        width: 88%;
-    }
+  .width-control {
+    width: 88%;
+  }
 
-    footer {
-        padding: 4vh 10vw;
-        height: 270px;
-    }
+  footer {
+    padding: 4vh 10vw;
+    height: 270px;
+  }
 
-    .footer-content {
-        flex-direction: column;
-    }
+  .footer-content {
+    flex-direction: column;
+  }
 
-    .science-image >img {
-        width: 280px;
-        height: 200px;
-    }
+  .science-image > img {
+    width: 280px;
+    height: 200px;
+  }
 
-    .contact-container {
-        display: block;
-    }
+  .contact-container {
+    display: block;
+  }
 
-    form input {
-        width: 28vh;
-    }
+  form input {
+    width: 28vh;
+  }
 
-    form textarea {
-       width: 38vh;
-    }
+  form textarea {
+    width: 38vh;
+  }
 }
 
 @media (max-width: 320px) {
-    .container {
-        padding: 12vw 6vh;
-    }
+  .container {
+    padding: 12vw 6vh;
+  }
 
-    .header {
-        font-size: 20px;
-        line-height: 1.35rem;
-    }
+  .header {
+    font-size: 20px;
+    line-height: 1.35rem;
+  }
 
-    .width-control {
-        width: 90%;
-    }
+  .width-control {
+    width: 90%;
+  }
 
-    .science-image >img {
-        width: 240px;
-        height: 180px;
-    }
+  .science-image > img {
+    width: 240px;
+    height: 180px;
+  }
 }
 
 @media (max-width: 320px) {
-    .science-image >img {
-        width: 200px;
-        height: 120px;
-    }
+  .science-image > img {
+    width: 200px;
+    height: 120px;
+  }
 }
