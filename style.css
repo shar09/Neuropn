@@ -110,6 +110,23 @@ body {
   text-align: center;
 }
 
+.link {
+  color: #001f3f;
+}
+
+.link .icon {
+  font-size: 24px;
+}
+
+.link:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+.link:hover .icon {
+  color: purple;
+}
+
 /* ------- Footer --------- */
 footer {
   background-color: #001f3f;
@@ -415,6 +432,10 @@ form textarea {
 
   form textarea {
     width: 38vh;
+  }
+
+  #my-form {
+    margin-top: 1em;
   }
 }
 
