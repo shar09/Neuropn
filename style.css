@@ -184,6 +184,14 @@ footer {
     font-size: 1.8em;
 } */
 
+.team-type {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: purple;
+  margin: 20px 0;
+}
+
 .team-member {
   font-size: 1.2em;
   font-weight: bold;
@@ -234,8 +242,12 @@ footer {
 }
 
 .science-image > img {
-  height: 400px;
-  width: 800px;
+  height: 440px;
+  width: 840px;
+}
+
+.no-top-margin {
+  margin-top: 0;
 }
 
 .card-subheading {
