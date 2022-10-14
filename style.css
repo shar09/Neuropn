@@ -80,9 +80,12 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  background-image: url('./slide-2.jpeg');
+  margin: auto;
+  background-color: rgba(2, 22, 46, 255);
+  background-position: center;
+  background-image: url('./new-slide.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 60% 100%;
 }
 
 .header {
@@ -395,6 +398,10 @@ form textarea {
   .science-image > img {
     width: 400px;
     height: 280px;
+  }
+
+  .overlay-image {
+    background-size: 100% 100%;
   }
 }
 
