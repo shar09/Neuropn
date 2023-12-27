@@ -164,8 +164,9 @@ footer {
 /* ------- Home Page --------- */
 .content {
   background-color: #efefef;
-  color: #001f3f;
+  color: black;
   padding: 6vh 10vw;
+  font-size: 1.05rem;
 }
 
 .heading {
